@@ -69,6 +69,7 @@ type_pack["values"] = ("Resource Pack", "Behavior Pack")
 type_pack.set("Select Pack Type")
 type_pack.grid(row=2, column=1, sticky="ew")
 
+
 resultLabel = tk.Label(root, text="")
 resultLabel.pack(pady=(15, 0))
 
