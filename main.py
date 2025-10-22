@@ -40,6 +40,7 @@ def mainFunc():
 
 
 
+
 # Main Interface
 root = tk.Tk()
 root.title("P3 Manifest Generator")
