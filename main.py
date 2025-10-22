@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 import uuid
-import nigga
+#orang impor
 
 # MAIN FUNCTION
 def mainFunc():
@@ -37,6 +37,7 @@ def mainFunc():
     with open(saveDir, "w") as f:
         f.write(f'{"{"}\n  "format_version": 2,\n  "header": {"{"}\n    "name": "{packName}",\n    "description": "{packDescr}",\n    "uuid": "{uuid.uuid4()}",\n    "version": [1, 0, 0],\n    "min_engine_version": [1, 17, 0]\n  {"}"},\n  "modules": [\n    {"{"}\n      "type": "{packType}",\n      "uuid": "{uuid.uuid4()}",\n      "version": [1, 0, 0]\n    {"}"}\n  ]\n{"}"}')
         resultLabel.config(text="Done...!!!", fg="#009900")
+
 
 
 
